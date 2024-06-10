@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.main_menu{
+    width: 100%;
+    height: 70px;
+    background: rgb(107, 68, 127);
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.main_menu ul{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.main_menu ul li a{
+    font-size: 25px;
+    color: rgb(204, 204, 205);
+    transition: all linear.4s;      
+}
+
+.main_menu ul li a:hover{
+    color: rgb(33, 3, 61);
+    font-size: 30px;
+    background-color: rgb(175, 172, 179);
+    opacity: 50%;
+    
+}
